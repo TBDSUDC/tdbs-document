@@ -1,0 +1,71 @@
+
+
+
+
+## 开发前准备工作
+
+[TOC]
+
+
+
+## 工具 ##
+
+##### 开发工具： IntelliJ IDEA 或者 Eclipse
+
+##### JDK版本：1.8+
+
+##### Maven版本：Maven2.2+
+
+
+
+## 环境配置
+
+##### JDK配置 #####
+
+1. 下载jdk的版本，从oracle的官方网站 （ps：JDK需要是64位版本）
+
+2. 配置JDK的环境变量
+
+   参看文档：<https://jingyan.baidu.com/article/5552ef47a8f040518efbc94a.html>
+
+##### Maven配置 #####
+
+1. 下载maven，推荐是用Maven 3
+
+   下载地址：<http://maven.apache.org/>
+
+2. 配置Maven环境变量
+
+   ```
+   参看文档：https://www.baidu.com/link?url=5t10xtdyCbxnSRWa8ICyi5g8p0zrBATw1U0bM6sqICDUKtc0IBgXI6whg7pTpqOiyMdBOhEg9oGLXZT96gQ4iLMM_DZeTyF4Ipd6iwqvOBW&wd=&eqid=f881646a000483be000000055d2ea29f
+   ```
+
+3. 设置maven的setting.xml文件
+
+   配置本地仓库的路径：
+
+   ```xml
+    <localRepository>/usr/local/maven</localRepository>
+   ```
+
+   代理或者镜像可以配置在maven的此文件，或者写入项目的pom.xml文件中。
+
+   更多参考文档：
+
+   <https://www.cnblogs.com/shangxiaofei/p/5416552.html>
+
+##### IntelliJ Idea的安装与环境配置 #####
+
+1. 下载IntelliJ Idea
+
+   下载地址：<http://www.jetbrains.com/idea/>
+
+2. 安装IntelliJ以后，做spark或者flink的开发需要scala
+
+   点击File-- >Settings --> Plugins, 然后搜索Scala，然后安装，完成以后重启Idea。
+
+   ![1563344142909](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563344142909.png)
+   
+3. 安装scala对应的版本
+
+   ![1563346268410](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563346268410.png)

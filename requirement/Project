@@ -1,0 +1,50 @@
+# 创建项目
+
+[TOC]
+
+
+
+### 创建一个新项目
+
+#### 直接通过IntelliJ Idea创建一个项目（ps：可以通过maven的artifacted直接创建，然后导入ide中，看自己的选择）
+
+**选择File--New--Project**
+
+![1563346718169](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563346718169.png)
+
+**然后选择Maven项目**
+
+![1563346802103](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563346802103.png)
+
+输入**GroupId， ArtifactId, Version**
+
+![1563346889775](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563346889775.png)
+
+**项目名称和路径**
+
+![1563346911999](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563346911999.png)
+
+完成。
+
+### 配置项目的pom.xml文件
+
+tbds的包是放在公网：https://tbdsrepo.cloud.tencent.com/repository/tbds/   所以pom文件需要引入此库。
+
+!1563347227594](C:\Users\danielmou\AppData\Roaming\Typora\typora-user-images\1563347227594.png)
+
+```xml
+<repositories>
+    <!--Tencent online maven repository-->
+    <repository>
+        <id>tencent-tsdb</id>
+        <url>https://tbdsrepo.cloud.tencent.com/repository/tbds/</url>
+    </repository>
+
+    <repository>
+        <id>central</id>
+        <url>http://repo1.maven.org/maven2</url>
+    </repository>
+
+</repositories>
+```
+
