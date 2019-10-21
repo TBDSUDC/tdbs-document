@@ -100,15 +100,7 @@ cd  项目根目录
 mvn clean package
 ```
 
+[https://github.com/TBDSUDC/TBDSDemo/tree/master/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C%E9%9C%80%E8%A6%81%E7%94%A8%E5%88%B0%E7%9A%84%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F/linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%93%8D%E4%BD%9CHDFS%E6%A1%88%E4%BE%8B](https://github.com/TBDSUDC/TBDSDemo/tree/master/用户手册需要用到的示例程序/linux环境下操作HDFS案例)
 
 
-### 运行
-
-```
-java -jar demo-hdfs.jar
-```
-
-
-
-####  项目demo
 
